@@ -23,10 +23,10 @@ export default class SearchBar extends Component {
 
         return (
             <div className="container-fluid">
-                <h5>Search for an Instagram #</h5>
-                <input type="text" className="foodSearchInput" value={this.props.searchValue}
+                <h3>Search for an Instagram #</h3>
+                <input type="text" className="input" value={this.props.searchValue}
                        onChange={this.handleTextChange} onKeyPress={this.handleKeyPress}/>
-                <button className="searchFoodButton btn btn-primary" onClick={this.props.onChange}>Search</button>
+                <button className="searchButton btn btn-primary" onClick={this.props.onChange}>Search</button>
             </div>
         );
     }
