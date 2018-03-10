@@ -22,10 +22,14 @@ export default class ResultsContainer extends Component {
                                             cardClick={this.props.cardClick}/>));
                 });
         }
+        let title=null;
+        if (rows.length>1){
+            title=(<h5>Top 10 associated hashtags</h5>);
+        }
         return (
             <div className="col-4">
                 <SearchBar onTextChange={this.props.onTextChange} onChange={this.props.onChange}/>
-                <h5>Top 10 associated hashtags</h5>
+                {title}
                 {rows}
                 <div className="card">
                     <h5>Recently searched:</h5>
