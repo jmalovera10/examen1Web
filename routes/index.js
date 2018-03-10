@@ -6,7 +6,7 @@ const MongoClient = require("mongodb").MongoClient;
 
 
 // Connection URL
-const url = process.env.MONGODB_URI;;
+const url = process.env.MONGODB_URI;
 
 
 function getTagTopFollowers(tag, callback) {
