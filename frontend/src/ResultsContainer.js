@@ -18,7 +18,7 @@ export default class ResultsContainer extends Component {
             this.props.hashtags.forEach(
                 (f) => {
                     i += 1;
-                    return (rows.push(<Card id={f.hastag} key={i} tag={f.tag} number={i}
+                    return (rows.push(<Card id={f.hashtag} key={i} tag={f.tag} number={i}
                                             cardClick={this.props.cardClick}/>));
                 });
         }
