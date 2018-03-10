@@ -82,7 +82,6 @@ class App extends Component {
                 return (res.json());
             })
             .then((posts) => {
-                console.log(posts);
                 this.setState({topPosts: posts.topPosts, hashtags: posts.tags, loading: false});
             })
             .catch((err) => console.log(err));
