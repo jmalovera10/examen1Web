@@ -5,7 +5,8 @@ Exam 1 using node + express + react + Mongo app generate for the [WebDev class a
 This app lets you search for a hashtag on Instagram. It displays the top 10 associated hastags with it and also the images. The images come with a progress bar that tells you how many of these top 10 hashtags they have. You can also navigate trough hastags by clicking on the results. All the search history is saved and you can also navigate trough it. 
 
 
-Started from the tamplate at the following [github repository](https://github.com/john-guerra/node_express_react)
+Started from the tamplate at the following [github repository](https://github.com/john-guerra/node_express_react).
+
 Where the Express app was generate using express generator and the react app on the frontend folder with create-react-app.
 
 # Running the demo
